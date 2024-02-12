@@ -32,7 +32,7 @@
           chart.draw(dataTable, options);
         }
         
-        // Récupération de données depuis notre API /paris/
+        // Récupération de données depuis notre API /meteo2/
         fetch('/meteo2/')
           .then(response => response.json())
           .then(data => {
