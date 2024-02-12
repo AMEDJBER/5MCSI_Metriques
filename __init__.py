@@ -32,7 +32,7 @@ def monhistogramme():
     return render_template("histo.html")
 
 @app.route("/histogramme2/")
-def monhistogramme():
+def monhistogramme2():
     return render_template("histo2.html")
 
 @app.route("/commits/")
