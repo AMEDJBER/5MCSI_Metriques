@@ -31,6 +31,10 @@ def mongraphique():
 def monhistogramme():
     return render_template("histo.html")
 
+@app.route("/histogramme2/")
+def monhistogramme():
+    return render_template("histo2.html")
+
 @app.route("/commits/")
 def mescommits():
     return render_template("commits.html")
